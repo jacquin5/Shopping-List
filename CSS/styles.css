@@ -1,0 +1,86 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+@font-face {
+	font-family: 'blackout';
+	src: url('../web_fonts/Blackout/Blackout-2am.ttf');
+}
+
+.container {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 1px solid red;*/
+}
+
+.header {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.header h1 {
+	font-size: 4rem;
+	font-family: 'blackout';
+	margin-bottom: 10px;
+}
+
+.header h3 {
+	font-size: 20px;
+	font-family: 'Helvetica';
+}
+
+.list_area {
+	text-align: center;
+	/*border: 1px solid green;*/
+}
+
+.input_area {
+	/*border: 1px solid red;*/
+}
+
+.list_area
+.input {
+	width: 250px;
+	height: 25px;
+	font-size: 1rem;
+}
+
+.add_btn {
+	background-color: transparent;
+	color: white;
+	font-size: 2rem;
+	width: 40px;
+	height: 50px;
+	position: relative;
+	bottom: 42px;
+	left: 166px;
+}
+
+.listed_input_area {
+	/*border: 1px solid red;*/
+	font-size: 2rem;
+	line-height: 80px;
+	font-family: 'copperplate';
+}
+
+
+
+.listed_input_area
+.listed_input
+.delete {
+	position: relative;
+	left: 50px;
+	font-size: 1rem;
+}
+
+.listed_input_area
+.listed_input
+.checkmark {
+	position: relative;
+	top: 10px;
+	right: 50px;
+
+}
